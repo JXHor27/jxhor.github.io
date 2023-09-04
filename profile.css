@@ -1,0 +1,205 @@
+/*
+
+display property specifics the display behavior of an element. 
+It’s a must know for controlling the layout of an element
+
+div, section, p, h1-h6 have 'block' value for display property
+
+'block' - The element will start on a new line and occupy the full width available
+          example, <div>, <section>, <h1-h6>, <p>
+          does not need to specify explicitly because it has been set by default
+
+'inline' - The element doesn’t start on a new line and only occupy just the width it requires
+           You can’t set the width or height.
+           example, <img>, <span>, <strong>
+
+'inline-block' - Same like inline, except that can set width and height values
+                 Have to enable manually, normally use this to display items horizontally
+*/
+
+body{
+    background: linear-gradient(to top,gray,rgb(14, 14, 19));
+    
+}
+#page1{
+    
+    background-image: url("sea7.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: -0.5%;
+    border:red solid;
+   
+}
+
+#page2{
+    border: white solid;
+   transition:1s;
+}
+
+#headbar{
+   
+    font-size: 30px;
+    font-weight: lighter;
+     font-family: serif;
+     align-items: center;
+     display: inline-flex;
+    
+     margin-top: 1cm;
+     font-family: 'Press Start 2P', cursive;
+     border: green solid;
+     
+    
+}
+
+#menu{
+    
+    font-family: 'Press Start 2P', cursive;
+
+    float: right;
+    font-size: 20px;
+    word-spacing: 2cm;
+    border: yellow solid;
+
+}
+.choice{
+    color:black;
+    text-decoration: none;
+}
+
+.choice:hover{
+    text-decoration: underline;
+  
+    font-weight: bolder;
+    color: rgb(222, 217, 228)
+}
+
+nav{
+   border: orange solid;
+}
+
+#home{
+    border: purple solid;
+    font-size: 60px;
+    
+}
+
+#intro{
+   
+    font-size: 90px;
+    padding-left: 2cm;
+   
+    margin-bottom: -1.5cm;
+    border:darkblue solid;
+    margin-top: 0.2cm;
+    margin-bottom: -2.3cm;
+    font-family: 'Handjet', cursive;
+    word-spacing: 0.5cm;
+    
+}
+#intro img{
+   padding-left: 0.5cm;
+}
+
+#identity{
+    
+    font-size: 60px;
+    
+   padding-left:2cm;
+ 
+   font-family: 'Handjet', cursive;
+   border:lightblue solid;
+  
+}
+
+/*  Page 2 */
+
+#skillsHeader{
+    font-family: 'Press Start 2P', cursive;
+   
+    color:white;
+    font-size: 50px;
+    padding-left: 2cm;
+}
+
+h2{
+    font-family: 'Handjet', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    border: white solid;
+    
+}
+
+
+.skills{
+    color:white;
+    padding-left: 1.5cm;
+    display: inline-block;
+    border:  white solid;
+}
+.text{
+    font-family: 'Handjet', cursive;
+    font-size: 30px;
+    
+}
+
+#skillBackground{
+   
+    font-size: 100px;
+    text-align: center;
+    color:rgb(5, 2, 2,0.2);
+    margin-top: -1.2cm;
+    
+}
+
+/*  Page 3 */
+#page3{
+   background: linear-gradient(to top,gray,black);
+   border:white solid;
+   background-image: url(mypic3.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   opacity: 0.75;
+}
+
+.header{
+    font-family: 'Press Start 2P', cursive;
+   
+    color:white;
+    font-size: 45px;
+    padding-left: 2cm;
+  
+}
+
+.edu{
+    
+    padding-left: 1cm;
+    
+    background-color: rgb(126, 113, 113,0.5);
+    margin-bottom: 1cm;
+    display: inline-block;
+    margin-left: 15.5cm;
+    margin-top: -2.3cm;
+    width: 13.5cm;
+    
+}
+
+.eduText{
+    font-family: 'Handjet', cursive;
+    font-size: 35px;
+    
+    text-align: justify;
+    margin-right: 1cm;
+   font-weight:bold ;
+   margin-top: -0.5cm;
+}
+
+.edu h2{
+   text-align: left;
+   border: none;
+}
+
+hr{
+    background-color: black;
+    height: 5px;
+}
+
